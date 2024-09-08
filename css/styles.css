@@ -1,0 +1,265 @@
+/* #region Variables */
+:root {
+  /* Fonts */
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+
+  /* Colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  /* Others */
+}
+
+/* #endregion Variables */
+
+/* #region Base */
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+/* #endregion Base */
+
+/* #region Common */
+
+.section {
+}
+
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-light {
+  color: var(--cloud);
+}
+
+.logo-dark {
+  color: var(--navy-blue);
+}
+
+/* #endregion Common */
+
+/* #region Header */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--ocean);
+}
+.header-nav-link:active {
+  color: var(--ocean);
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--ocean);
+}
+
+/* #endregion Header */
+
+/* #region Hero */
+
+.hero-section {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean);
+}
+.btn:active {
+  background-color: var(--ocean);
+}
+.btn-accent {
+}
+
+/* #endregion Hero */
+
+/* #region Features */
+.features-section {
+}
+.features-title {
+}
+.features-list {
+}
+.feature-item {
+}
+.feature-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.feature-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* #endregion Features */
+
+/* #region Team */
+.team-section {
+  background: var(--cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+  background: var(--white);
+}
+.team-capture {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+}
+/* #endregion Team */
+
+/* #region Portfolio */
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-row {
+}
+.portfolio-item {
+}
+.portfolio-caption {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* #endregion Portfolio */
+
+/* #region Footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-logo {
+}
+
+.footer-slo {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+/* #endregion Footer */

@@ -79,6 +79,20 @@ button {
 
 /* #region Common */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section {
   padding: 120px 0;
 }
@@ -121,6 +135,7 @@ button {
 
 /* Card set */
 .card-set {
+  gap: 24px;
   display: flex;
   flex-wrap: wrap;
   row-gap: var(--ident-row);
@@ -150,6 +165,7 @@ button {
   justify-content: space-between;
 }
 .header-logo {
+  margin-right: 76px;
 }
 .header-nav-list {
   display: flex;
@@ -215,7 +231,9 @@ button {
   color: var(--white);
 }
 .btn {
-  display: flex;
+  display: block;
+  height: 56px;
+  border: none;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -253,6 +271,7 @@ button {
 .features-list {
 }
 .feature-item {
+  width: calc((100% - 72px) / 4);
 }
 .feature-caption {
   text-align: left;
@@ -279,8 +298,14 @@ button {
 }
 .team-list {
 }
+
+.team-data {
+  padding: 32px 0;
+}
+
 .team-item {
-  padding-bottom: 32px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background: var(--white);
 }
 .team-capture {
@@ -312,15 +337,16 @@ button {
 }
 
 .portfolio-data {
+  padding: 32px 16px;
   border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-left: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-caption {
-  padding: 32px 16px 0;
   margin-bottom: 8px;
   text-align: left;
   font-family: var(--font-family);
@@ -331,7 +357,6 @@ button {
   color: var(--navy-blue);
 }
 .portfolio-desc {
-  padding: 0 16px 32px;
   text-align: left;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -348,10 +373,11 @@ button {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-slo {
-  margin-top: 16px;
   max-width: 264px;
   text-align: left;
   line-height: 1.5;

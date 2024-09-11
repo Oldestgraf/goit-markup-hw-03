@@ -269,6 +269,7 @@ button {
 .features-title {
 }
 .features-list {
+  gap: 24px;
 }
 .feature-item {
   width: calc((100% - 72px) / 4);
@@ -297,6 +298,7 @@ button {
 .team-title {
 }
 .team-list {
+  gap: 24px;
 }
 
 .team-data {

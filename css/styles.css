@@ -160,8 +160,7 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
-  flex-grow: 1;
+  margin-right: auto;
   justify-content: space-between;
 }
 .header-logo {
@@ -311,7 +310,6 @@ button {
   background: var(--white);
 }
 .team-capture {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
